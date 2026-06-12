@@ -1,0 +1,16 @@
+<!DOCTYPE>
+<html>
+  <head>
+    <title> Apresentação do Oxigênio </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="" href="">
+  </head>
+	<body>
+    <h1> Oxigênio </h1>
+    <p> O oxigênio tem 8 prótons e é um dos elementos mais importantes da tabela periódica, sendo importante em muitos processos que envolvem a combustão.  
+    <p1> bla bla bla, coloque dados aqui </p1>
+    <img src = "" alt = "Foto">
+    <hr>
+    <p100 style = "text-align:right;"> Componentes: Davi, Henzo, Nicholas e Vinícius. </p100>
+	</body>
+</html>
