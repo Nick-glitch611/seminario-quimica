@@ -31,7 +31,7 @@ botao_enxofre.addEventListener("click", function(){
         
         div_enxofre.style.display = "none";
 
-        div_enxofre.scrollIntoView({ behavior: 'smooth', block: 'center'
+        div_enxofre.scrollIntoView({ behavior: 'smooth', block: 'center'})
 
             }
 });
@@ -50,7 +50,7 @@ botao_selenio.addEventListener("click", function(){
         
         div_selenio.style.display = "none";
 
-        div_selenio.scrollIntoView({ behavior: 'smooth', block: 'center'
+        div_selenio.scrollIntoView({ behavior: 'smooth', block: 'center'})
 
             }
 });
@@ -69,7 +69,7 @@ botao_telurio.addEventListener("click", function(){
         
         div_telurio.style.display = "none";
 
-        div_telurio.scrollIntoView({ behavior: 'smooth', block: 'center'
+        div_telurio.scrollIntoView({ behavior: 'smooth', block: 'center'})
 
             }
                             
@@ -89,7 +89,7 @@ botao_polonio.addEventListener("click", function(){
         
         div_polonio.style.display = "none";
 
-        div_polonio.scrollIntoView({ behavior: 'smooth', block: 'center'
+        div_polonio.scrollIntoView({ behavior: 'smooth', block: 'center'})
 
             }
 });
