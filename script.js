@@ -5,26 +5,67 @@ const botao_telurio = document.getElementById("botao_telurio");
 const botao_polonio = document.getElementById("botao_polonio");
 
 botao_oxigenio.addEventListener("click", function(){
-
-    document.getElementById("oxigenio").style.display = "block";
+    
+    const div_oxigenio = document.getElementById("oxigenio");
+    
+    if (div_oxigenio.style.display === none) { 
+        
+        div_oxigenio.style.display = "block";
+        
+    } else {
+        
+        div_oxigenio.style.display = "none";
+        
 });
 
 botao_enxofre.addEventListener("click", function(){
 
-    document.getElementById("enxofre").style.display = "block";
+    const div_enxofre = document.getElementById("enxofre");
+    
+    if (div_enxofre.style.display === none) { 
+        
+        div_enxofre.style.display = "block";
+        
+    } else {
+        
+        div_enxofre.style.display = "none";
 });
 
 botao_selenio.addEventListener("click", function(){
 
-    document.getElementById("selenio").style.display = "block";
+    const div_oxigenio = document.getElementById("oxigenio");
+    
+    if (div_oxigenio.style.display === none) { 
+        
+        div_oxigenio.style.display = "block";
+        
+    } else {
+        
+        div_oxigenio.style.display = "none";
 });
 
 botao_telurio.addEventListener("click", function(){
 
-    document.getElementById("telurio").style.display = "block";
+    const div_oxigenio = document.getElementById("oxigenio");
+    
+    if (div_oxigenio.style.display === none) { 
+        
+        div_oxigenio.style.display = "block";
+        
+    } else {
+        
+        div_oxigenio.style.display = "none";
 });
 
 botao_polonio.addEventListener("click", function(){
 
-    document.getElementById("polonio").style.display = "block";
+    const div_oxigenio = document.getElementById("oxigenio");
+    
+    if (div_oxigenio.style.display === none) { 
+        
+        div_oxigenio.style.display = "block";
+        
+    } else {
+        
+        div_oxigenio.style.display = "none";
 });
