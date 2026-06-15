@@ -2,20 +2,20 @@ const botao_oxigenio = document.getElementById("botao_oxigenio");
 
 botao_oxigenio.addEventListener('click', function() {
     
-    const div = document.getElementById('oxigenio');
+    const div_oxigenio = document.getElementById('oxigenio');
     
-    if (div.style.display === 'block') {
+    if (div_oxigenio.style.display === 'block') {
         
-        div.style.display = 'none';
+        div_oxigenio.style.display = 'none';
         
     } else {
         
-        div.style.display = 'block';
+        div_oxigenio.style.display = 'block';
         
-        div.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        div_oxigenio.scrollIntoView({ behavior: 'smooth', block: 'center' });
     }
         
-}});
+});
 
 const botao_enxofre = document.getElementById("botao_enxofre");
 
@@ -31,8 +31,10 @@ botao_enxofre.addEventListener("click", function(){
         
         div_enxofre.style.display = "none";
 
-        div.scrollIntoView({ behavior: 'smooth', block: 'center'
-}});
+        div_enxofre.scrollIntoView({ behavior: 'smooth', block: 'center'
+
+            }
+});
 
 const botao_selenio = document.getElementById("botao_selenio");
 
@@ -48,8 +50,10 @@ botao_selenio.addEventListener("click", function(){
         
         div_selenio.style.display = "none";
 
-        div.scrollIntoView({ behavior: 'smooth', block: 'center'
-}});
+        div_selenio.scrollIntoView({ behavior: 'smooth', block: 'center'
+
+            }
+});
 
 const botao_telurio = document.getElementById("botao_telurio");
 
@@ -65,11 +69,13 @@ botao_telurio.addEventListener("click", function(){
         
         div_telurio.style.display = "none";
 
-        div.scrollIntoView({ behavior: 'smooth', block: 'center'
-                            
-}});
+        div_telurio.scrollIntoView({ behavior: 'smooth', block: 'center'
 
-const botao_polocumennio = dot.getElementById("botao_polonio");
+            }
+                            
+});
+
+const botao_polonio = document.getElementById("botao_polonio");
 
 botao_polonio.addEventListener("click", function(){
 
@@ -83,5 +89,7 @@ botao_polonio.addEventListener("click", function(){
         
         div_polonio.style.display = "none";
 
-        div.scrollIntoView({ behavior: 'smooth', block: 'center'
-}});
+        div_polonio.scrollIntoView({ behavior: 'smooth', block: 'center'
+
+            }
+});
