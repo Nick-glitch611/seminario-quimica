@@ -1,16 +1,19 @@
 const botao_oxigenio = document.getElementById("botao_oxigenio");
 
-botao_oxigenio.addEventListener("click", function(){
+botao_oxigenio.addEventListener('click', function() {
     
-    const div_oxigenio = document.getElementById("oxigenio");
+    const div = document.getElementById('oxigenio');
     
-    if (div_oxigenio.style.display === "none") { 
+    if (div.style.display === 'block') {
         
-        div_oxigenio.style.display = "block";
+        div.style.display = 'none';
         
     } else {
         
-        div_oxigenio.style.display = "none";
+        div.style.display = 'block';
+        
+        div.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
         
 }});
 
@@ -27,6 +30,8 @@ botao_enxofre.addEventListener("click", function(){
     } else {
         
         div_enxofre.style.display = "none";
+
+        div.scrollIntoView({ behavior: 'smooth', block: 'center'
 }});
 
 const botao_selenio = document.getElementById("botao_selenio");
@@ -42,6 +47,8 @@ botao_selenio.addEventListener("click", function(){
     } else {
         
         div_selenio.style.display = "none";
+
+        div.scrollIntoView({ behavior: 'smooth', block: 'center'
 }});
 
 const botao_telurio = document.getElementById("botao_telurio");
@@ -57,6 +64,9 @@ botao_telurio.addEventListener("click", function(){
     } else {
         
         div_telurio.style.display = "none";
+
+        div.scrollIntoView({ behavior: 'smooth', block: 'center'
+                            
 }});
 
 const botao_polocumennio = dot.getElementById("botao_polonio");
@@ -72,4 +82,6 @@ botao_polonio.addEventListener("click", function(){
     } else {
         
         div_polonio.style.display = "none";
+
+        div.scrollIntoView({ behavior: 'smooth', block: 'center'
 }});
