@@ -1,21 +1,29 @@
 body{
 
-background-color: #1F2328;
+  background-color: #1F2328;
 
-}
+   }
 
 h1, p, p1, p2, p3, p4{
 
-color: #00BCD4;
+  color: #00BCD4;
 
-}
+                      }
 
 .oxigenio {
 
-display: none;
-}
+  display: none;
+  
+          }
 
 .enxofre {
 
-display: none;
-}
+  display: none;
+  
+        }
+
+button {
+
+  border: none;
+
+       }
