@@ -1,8 +1,8 @@
-const botao_oxigenio = document.getDocumentById("botao_oxigenio");
-const botao_enxofre = document.getDocumentById("botao_enxofre");
-const botao_selenio = document.getDocumentById("botao_selenio");
-const botao_telurio = document.getDocumentById("botao_telurio");
-const botao_polonio = document.getDocumentById("botao_polonio");
+const botao_oxigenio = document.getElementById("botao_oxigenio");
+const botao_enxofre = document.getElementById("botao_enxofre");
+const botao_selenio = document.getElementById("botao_selenio");
+const botao_telurio = document.getElementById("botao_telurio");
+const botao_polonio = document.getElementById("botao_polonio");
 
 botao_oxigenio.addEventListener("click", function(){
 
