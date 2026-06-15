@@ -1,19 +1,15 @@
-.oxigenio {
+.oxigenio, .enxofre, .selenio, .telurio, .polonio {
 
   display: none;
   
-          }
-
-.enxofre {
-
-  display: none;
-  
-        }
+                                                   }
 
 button {
+  
   border: none;
   background: none;
   padding: 0;
   cursor: pointer;
   outline: none;
-}
+  
+        }
