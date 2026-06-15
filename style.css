@@ -23,7 +23,9 @@ h1, p, p1, p2, p3, p4{
         }
 
 button {
-
   border: none;
-
-       }
+  background: none;
+  padding: 0;
+  cursor: pointer;
+  outline: none;
+}
