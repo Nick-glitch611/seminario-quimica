@@ -12,7 +12,7 @@ botao_oxigenio.addEventListener("click", function() {
 
         div_oxigenio.style.display = "none";
 
-        div_oxigenio.scrollIntoView({behavior: "smooth", block: center});
+        div_oxigenio.scrollIntoView({behavior: "smooth", block: "center"});
 
     }
 });
